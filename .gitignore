@@ -1,4 +1,3 @@
 *.ipynb
 
 .venv
-requirements.txt
