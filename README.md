@@ -7,3 +7,8 @@ touch requirements.txt
 pip install jupyter pandas lets_plot palmerpenguins
 pip freeze > requirements.txt
 ```
+install and run the notebook:
+```bash
+pip install -r requirements.txt
+quarto render {notebook}.qmd --out index.html
+```
